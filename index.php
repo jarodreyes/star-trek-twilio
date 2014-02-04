@@ -1,7 +1,7 @@
 <!-- Generate Capability Token and initiate outbound app -->
 <!-- @start snippet -->
 <?php 
-include '../twilio-php-library/Services/Twilio/Capability.php';
+include 'helper/twilio-php-library/Services/Twilio/Capability.php';
 $accountSid = $_ENV["TWILIO_ACCOUNT_SID"];
 $authToken  = $_ENV["TWILIO_AUTH_TOKEN"];
 $token = new Services_Twilio_Capability($accountSid, $authToken);
