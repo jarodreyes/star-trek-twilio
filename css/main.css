@@ -1,0 +1,110 @@
+html, body {
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+  font-family:Helvetica;
+}
+.space-bg, .trekky {
+  background: url(../img/space_bg.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.trekky {
+  background-image:url(../img/blur_trek.jpg);
+}
+.communicator {
+  background: url(../img/communicator.png) no-repeat bottom;
+  height: 570px;
+  width: 280px;
+  position:relative;
+}
+.indicator {
+  width:30px;
+  height: 26px;
+  display:block;
+  position: absolute;
+  top:340px;
+  background:url(../img/indicators.png) no-repeat;
+}
+.indicator.ready {
+  left:90px;
+  background-position:0px -26px;
+}
+.indicator.record {
+  left:128px;
+  background-position:-36px -26px;
+}
+.indicator.saving {
+  left:166px;
+  background-position:-70px -26px;
+}
+.indicator.ready.active {
+  left:90px;
+  background-position:0px 0px;
+}
+.indicator.record.active {
+  left:128px;
+  background-position:-36px 0px;
+}
+.indicator.saving.active {
+  left:166px;
+  background-position:-70px 0px;
+}
+.log {
+  width: 310px;
+  height: 210px;
+  float: left;
+  margin: 10px;
+  background: url(../img/tape.png);
+  padding: 20px 20px 0px;
+  position: relative;
+}
+.log span {
+  position: absolute;
+  top: 160px;
+  left: 27px;
+  color: white;
+}
+.log i {
+  top: 43px;
+  position: absolute;
+  display: block;
+  left: 34px;
+  font-size: 12px;
+}
+.log p {
+  top: 180px;
+  position: absolute;
+  left: 26px;
+  margin: 3px 0px;
+}
+a.btn {
+  display: block;
+  width: 88px;
+  height: 41px;
+  padding: 18px 20px 0px 20px;
+  position: absolute;
+  top: 390px;
+  left: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+  letter-spacing: 1px;
+}
+a.btn.hidden {
+  display: none;
+}
+img.hero-type {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
