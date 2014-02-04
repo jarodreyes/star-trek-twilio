@@ -5,6 +5,7 @@
       My recordings
     </title>
     <link rel='stylesheet' href='css/main.css' />
+    <link href='img/favicon.png' rel='shortcut icon'>
   </head>
     <body>
       <div class="trekky"></div>
